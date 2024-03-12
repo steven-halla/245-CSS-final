@@ -122,11 +122,54 @@
 
 .body-primary-panel-div {
     display: flex;
+    flex-direction: column;
     background-color: lightgreen;
     height: 100%;
     width: 80%;
 
 }
+
+.body-primary-panel-top-div {
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+    height: 40%;
+    width: 100%;
+
+}
+
+.body-primary-panel-left-div {
+    display: flex;
+    flex-direction: row;
+    background-color: magenta;
+    height: 100%;
+    width: 30%;
+
+}
+
+.body-primary-panel-right-div {
+    display: flex;
+    flex-direction: row;
+    background-color: mediumpurple;
+    height: 100%;
+    width: 70%;
+
+}
+
+
+
+
+
+
+.body-primary-panel-bottom-div {
+    display: flex;
+    background-color: saddlebrown;
+    height: 60%;
+    width: 100%;
+
+}
+
+
 
 
 
