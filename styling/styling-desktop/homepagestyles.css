@@ -9,13 +9,75 @@
     box-sizing: border-box;
 }
 
+
+
+
 .header-parent-div {
     display: flex;
+    flex-direction: row;
     background-color: yellow;
     height: 15%;
     width: 100vw;
 
 }
+
+.header-issue-div {
+    display: flex;
+    flex-direction: row;
+    background-color: navy;
+    height: 100%;
+    width: 20%;
+
+}
+
+.header-sub-title-div {
+    display: flex;
+    flex-direction: row;
+    background-color: darkcyan;
+    height: 100%;
+    width: 20%
+
+}
+
+.header-title-div {
+    display: flex;
+    flex-direction: column;
+    background-color: darkmagenta;
+    height: 100%;
+    width: 60%;
+
+}
+
+.header-title-top-div {
+    display: flex;
+    flex-direction: row;
+    background-color: darkolivegreen;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.header-title-bottom-div {
+    display: flex;
+    flex-direction: row;
+    background-color: olivedrab;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .body-parent-div {
     display: flex;
@@ -25,19 +87,74 @@
 
 }
 
+.body-left-panel-div {
+    display: flex;
+    background-color: lightgoldenrodyellow;
+    height: 100%;
+    width: 20%;
+    flex-direction: column;
+
+}
+
+.body-left-panel-top-div {
+    display: flex;
+    background-color: gold;
+    height: 50%;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.body-left-panel-bottom--div {
+    display: flex;
+    background-color: goldenrod;
+    height: 50%;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+
+
+
+
+
+
+.body-primary-panel-div {
+    display: flex;
+    background-color: lightgreen;
+    height: 100%;
+    width: 80%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer-parent-div {
     display: flex;
     background-color: blue;
-    height: 20%;
+    height: 15%;
     width: 100vw;
 
 }
 
-.footer-parent-div {
+.foooter-contact-info-div {
     display: flex;
     background-color: lightseagreen;
-    height: 20%;
+    height: 100%;
     width: 30%;
     flex-direction: column;
+    margin: 0;
 
 }
