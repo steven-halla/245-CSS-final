@@ -138,6 +138,33 @@
 
 }
 
+.upcoming-events-body-primary-panel-top-div {
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+    height: 10%;
+    width: 100%;
+
+}
+
+.upcoming-events-body-primary-panel-middle-div {
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    height: 80%;
+    width: 100%;
+
+}
+
+.upcoming-events-body-primary-panel-bottom-div {
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    height: 10%;
+    width: 100%;
+
+}
+
 .body-primary-panel-left-div {
     display: flex;
     flex-direction: row;
