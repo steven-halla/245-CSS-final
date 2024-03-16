@@ -149,12 +149,53 @@
 
 .upcoming-events-body-primary-panel-middle-div {
     display: flex;
-    flex-direction: row;
+    /*flex-direction: row;*/
     background-color: green;
     height: 80%;
     width: 100%;
 
 }
+
+.parent-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.container1,
+.container2,
+.container3,
+.container4 {
+    flex: 1 0 50%;
+    height: 50%;
+}
+
+.container1 {
+    order: 1;
+    background-color: red;
+}
+
+.container2 {
+    order: 2;
+    background-color: purple;
+
+}
+
+.container3 {
+    order: 3;
+    background-color: pink;
+
+}
+
+.container4 {
+    order: 4;
+    background-color: plum;
+
+}
+
+
+
 
 .upcoming-events-body-primary-panel-bottom-div {
     display: flex;
@@ -164,6 +205,8 @@
     width: 100%;
 
 }
+
+
 
 .body-primary-panel-left-div {
     display: flex;
