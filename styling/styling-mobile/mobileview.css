@@ -12,7 +12,7 @@
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
-    overflow-y: hidden;
+    /*overflow-y: hidden;*/
     box-sizing: border-box;
 }
 
@@ -78,7 +78,7 @@
     display: flex;
     flex-direction: row;
     background-color: olivedrab;
-    height: 100%;
+    height: 20%;
     width: 100%;
 
 
@@ -98,4 +98,46 @@
 .header-title-bottom-div p span {
     display: none;
 }
+
+
+
+
+
+.body-parent-div {
+    display: flex;
+    background-color: powderblue;
+    height: 30%;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+
+.body-left-panel-div {
+    display: flex;
+    background-color: lightgoldenrodyellow;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.body-left-panel-top-div {
+    display: flex;
+    background-color: gold;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.body-left-panel-bottom--div {
+    display: flex;
+    background-color: goldenrod;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+
+}
+
 
