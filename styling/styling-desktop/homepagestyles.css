@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .home-wrapper-div {
     display: flex;
     background-color: red;
@@ -23,8 +30,8 @@
 
 .header-issue-div {
     display: flex;
-    flex-direction: row;
-    background-color: navy;
+    flex-direction: column;
+    background-color: lightgray;
     height: 100%;
     width: 20%;
 
@@ -32,7 +39,7 @@
 
 .header-sub-title-div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: darkcyan;
     height: 100%;
     width: 20%
@@ -65,7 +72,24 @@
     height: 100%;
     width: 100%;
 
+
 }
+
+.header-title-bottom-div p:last-child {
+    color: red;
+}
+
+
+.header-title-bottom-div p  {
+    margin-left: 10px;
+}
+
+
+.header-title-bottom-div p span {
+    color: white;
+    margin-left: 10px;
+}
+
 
 
 
