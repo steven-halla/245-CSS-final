@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-wrapper-div {
+    display: flex;
+    background-color: red;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.header-parent-div, .body-parent-div, .footer-parent-div {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    width: 100%;
+}
+
+.header-issue-div, .header-sub-title-div, .header-title-div {
+    background-color: lightgray;
+    width: 100%; /* Allow elements to fill the container */
+}
+
+.header-title-top-div, .header-title-bottom-div, .body-left-panel-div, .body-primary-panel-div {
+    display: flex;
+    flex-direction: column; /* Adjust direction for mobile */
+    width: 100%;
+}
+
+/* Specific adjustments for smaller elements */
+.header-title-bottom-div p, .header-title-bottom-div p span, .body-left-panel-top-div, .body-left-panel-bottom--div, .body-primary-panel-top-div, .upcoming-events-body-primary-panel-top-div, .upcoming-events-body-primary-panel-middle-div, .parent-container, .container1, .container2, .container3, .container4, .upcoming-events-body-primary-panel-bottom-div, .upcoming-events-body-primary-panel-bottom-image-div, .upcoming-events-body-primary-panel-bottom-p-div, .body-primary-panel-left-div, .body-primary-panel-right-div, .body-primary-panel-bottom-div, .footer-parent-div, .foooter-contact-info-div {
+    width: 100%; /* Ensure all elements don't exceed the viewport width */
+}
+
+/* Flex direction adjustments for mobile */
+.body-parent-div, .body-left-panel-div, .body-primary-panel-div {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+}
+
+/* Text and elements alignment */
+.header-title-bottom-div p {
+    margin: 0 10px; /* Adjust spacing around text */
+}
+
+.header-title-bottom-div p:last-child {
+    color: red; /* Keep the last item color change */
+}
+
+.header-title-bottom-div p span {
+    color: white; /* Keep the pipe color */
+}
+
+/* Adjust image containers and other specific elements as needed to ensure they do not overflow their containers */
