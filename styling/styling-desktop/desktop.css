@@ -256,16 +256,22 @@
     flex-direction: row;
     background-color: magenta;
     height: 100%;
-    width: 30%;
+    width: 50%;
+
+}
+
+
+.body-primary-panel-left-div img {
+    width: 100%;
 
 }
 
 .body-primary-panel-right-div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: mediumpurple;
     height: 100%;
-    width: 70%;
+    width: 50%;
 
 }
 
@@ -276,18 +282,26 @@
 
 .body-primary-panel-bottom-div {
     display: flex;
+    flex-wrap: wrap; /* Allow items to wrap as needed */
     background-color: saddlebrown;
-    height: 60%;
-    width: 100%;
+    padding-bottom: 55px;
+}
 
+.title-body-primary-panel-bottom-div {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap as needed */
+    background-color: saddlebrown;
+    padding-bottom: 55px;
 }
 
 
-
-
-
-
-
+.body-primary-panel-bottom-div p {
+    flex: 1 1 50%; /* Grow to fill the space, basis of 50% */
+    max-width: 50%; /* Ensure it does not grow beyond 50% */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    padding-bottom: 20px;
+    padding-left:20px;
+}
 
 
 
@@ -312,5 +326,14 @@
     width: 30%;
     flex-direction: column;
     margin: 0;
+
+}
+
+.footer-image-div {
+    display: flex;
+    background-color: lightseagreen;
+
+    flex-direction: row;
+    padding-left: 80%;
 
 }
