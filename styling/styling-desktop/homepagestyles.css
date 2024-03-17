@@ -231,6 +231,24 @@
 
 }
 
+.upcoming-events-body-primary-panel-bottom-image-div {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgreen;
+    height: 100%;
+    width: 50%;
+
+}
+
+.upcoming-events-body-primary-panel-bottom-p-div {
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    height: 100%;
+    width: 50%;
+
+}
+
 
 
 .body-primary-panel-left-div {
