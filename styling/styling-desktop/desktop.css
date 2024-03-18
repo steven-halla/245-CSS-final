@@ -12,7 +12,7 @@ p {
 
 .home-wrapper-div {
     display: flex;
-    background-color: red;
+    /*background-color: red;*/
     flex-direction: column;
     height: 100vh;
     width: 100vw;
@@ -127,7 +127,7 @@ p {
 
 .body-parent-div {
     display: flex;
-    background-color: green;
+    /*background-color: lightblue;*/
     height: 70%;
     width: 100vw;
 
@@ -135,7 +135,7 @@ p {
 
 .body-left-panel-div {
     display: flex;
-    background-color: lightgoldenrodyellow;
+    /*background-color: lightgoldenrodyellow;*/
     height: 100%;
     width: 20%;
     flex-direction: column;
@@ -145,7 +145,7 @@ p {
 
 .body-left-panel-top-div {
     display: flex;
-    background-color: gold;
+    background-color: lightblue;
     height: 50%;
     width: 100%;
     flex-direction: column;
@@ -159,7 +159,7 @@ p {
 
 .body-left-panel-bottom--div {
     display: flex;
-    background-color: goldenrod;
+    background-color: lightblue;
     height: 50%;
     width: 100%;
     flex-direction: column;
@@ -177,7 +177,7 @@ p {
     justify-content: center;
     align-items: flex-start; /* Align items to the start (left) */
     padding: 15px;
-    background-color: gold; /* top div */
+    /*background-color: gold; !* top div *!*/
     /* background-color: goldenrod; for bottom div */
     height: 50%;
     width: 100%;
@@ -197,7 +197,7 @@ p {
 .body-primary-panel-div {
     display: flex;
     flex-direction: column;
-    background-color: lightgreen;
+    /*background-color: lightgreen;*/
     height: 100%;
     width: 80%;
 
@@ -206,7 +206,7 @@ p {
 .body-primary-panel-top-div {
     display: flex;
     flex-direction: row;
-    background-color: brown;
+    /*background-color: brown;*/
     height: 40%;
     width: 100%;
 
@@ -215,7 +215,7 @@ p {
 .upcoming-events-body-primary-panel-top-div {
     display: flex;
     flex-direction: row;
-    background-color: brown;
+    /*background-color: brown;*/
     height: 10%;
     width: 100%;
 
@@ -293,7 +293,7 @@ p {
 .upcoming-events-body-primary-panel-bottom-p-div {
     display: flex;
     flex-direction: row;
-    background-color: lightblue;
+    /*background-color: lightblue;*/
     height: 100%;
     width: 50%;
 
@@ -304,7 +304,7 @@ p {
 .body-primary-panel-left-div {
     display: flex;
     flex-direction: row;
-    background-color: magenta;
+    /*background-color: magenta;*/
     height: 100%;
     width: 50%;
 
@@ -319,7 +319,7 @@ p {
 .body-primary-panel-right-div {
     display: flex;
     flex-direction: column;
-    background-color: mediumpurple;
+    /*background-color: lightblue;*/
     height: 100%;
     width: 50%;
     justify-content: center;
@@ -335,20 +335,22 @@ p {
 .body-primary-panel-bottom-div {
     display: flex;
     flex-wrap: wrap; /* Allow items to wrap as needed */
-    background-color: saddlebrown;
+    /*background-color: saddlebrown;*/
     padding-bottom: 55px;
+
 }
 
 .title-body-primary-panel-bottom-div {
     display: flex;
     flex-wrap: wrap; /* Allow items to wrap as needed */
-    background-color: red;
     padding-bottom: 55px;
     flex-direction: row;
 }
 
 .title-body-primary-panel-bottom-div h2 {
     padding-left: 10%;
+    color: gold;
+    font-size: 26px;
 }
 
 
@@ -370,15 +372,20 @@ p {
 
 .footer-parent-div {
     display: flex;
-    background-color: blue;
+    background: linear-gradient(to right,
+    gold 0%,
+    black 25%,
+    gold 50%,
+    black 75%,
+    gold 100%);
     height: 15%;
     width: 100vw;
-
 }
+
 
 .foooter-contact-info-div {
     display: flex;
-    background-color: lightseagreen;
+    /*background-color: lightseagreen;*/
     height: 100%;
     width: 30%;
     flex-direction: column;
@@ -388,7 +395,7 @@ p {
 
 .footer-image-div {
     display: flex;
-    background-color: lightseagreen;
+    /*background-color: lightseagreen;*/
 
     flex-direction: row;
     padding-left: 80%;
@@ -397,7 +404,7 @@ p {
 
 .footer-image-home-div {
     display: flex;
-    background-color: lightseagreen;
+    /*background-color: lightseagreen;*/
 
     flex-direction: column;
     width: 20%;
@@ -407,7 +414,7 @@ p {
 
 .foooter-contact-info-home-div {
     display: flex;
-    background-color: lightpink;
+    /*background-color: lightpink;*/
     height: 100%;
     width: 100%;
     min-width: 70vw;
