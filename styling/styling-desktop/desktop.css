@@ -237,13 +237,16 @@ li {
     /*background-color: brown;*/
     height: 10%;
     width: 100%;
+    color: red;
+    font-size: 22px;
+    margin-top: 5%;
 
 }
 
 .upcoming-events-body-primary-panel-middle-div {
     display: flex;
     /*flex-direction: row;*/
-    background-color: green;
+    /*background-color: green;*/
     height: 80%;
     width: 100%;
 
@@ -271,25 +274,25 @@ li {
 
 .container1 {
     order: 1;
-    background-color: red;
+    /*background-color: red;*/
 }
 
 
 .container2 {
     order: 2;
-    background-color: purple;
+    /*background-color: purple;*/
 
 }
 
 .container3 {
     order: 3;
-    background-color: pink;
+    /*background-color: pink;*/
 
 }
 
 .container4 {
     order: 4;
-    background-color: plum;
+    /*background-color: plum;*/
 
 }
 
@@ -299,8 +302,8 @@ li {
 .upcoming-events-body-primary-panel-bottom-div {
     display: flex;
     flex-direction: row;
-    background-color: yellow;
-    height: 10%;
+    /*background-color: yellow;*/
+    height: 15%;
     width: 100%;
 
 }
@@ -308,11 +311,13 @@ li {
 .upcoming-events-body-primary-panel-bottom-image-div {
     display: flex;
     flex-direction: row;
-    background-color: lightgreen;
+    /*background-color: lightgreen;*/
     height: 100%;
     width: 50%;
-
+    justify-content: flex-end;
 }
+
+
 
 .upcoming-events-body-primary-panel-bottom-p-div {
     display: flex;
@@ -320,6 +325,23 @@ li {
     /*background-color: lightblue;*/
     height: 100%;
     width: 50%;
+    font-size: 22px;
+    margin-left: 70%;
+
+}
+
+.upcoming-events-body-primary-panel-bottom-p-div h3 {
+    display: flex;
+    padding-top: 5%;
+
+}
+
+
+.upcoming-events-body-primary-panel-bottom-p-div img{
+
+    height: 100%;
+    width: 33%;
+
 
 }
 
