@@ -288,3 +288,22 @@
     align-items: center;
 
 }
+
+
+.upcoming-events-body-primary-panel-bottom-p-div {
+    display: flex;
+    height: 20%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.upcoming-events-body-primary-panel-bottom-p-div img{
+
+    height: 100%;
+    width: 33%;
+
+
+}
