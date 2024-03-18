@@ -27,16 +27,19 @@ p {
 .header-parent-div {
     display: flex;
     flex-direction: row;
-    background-color: yellow;
+    background: linear-gradient(to top,
+    #3cb371 0%,
+    #32cd32 33.3%,
+    #2e8b57 66.6%);
     height: 15%;
     width: 100vw;
-
 }
+
 
 .header-issue-div {
     display: flex;
     flex-direction: column;
-    background-color: lightgray;
+    /*background-color: lightgray;*/
     height: 100%;
     width: 10%;
     justify-content: center;
@@ -49,7 +52,7 @@ p {
     align-items: flex-end;
     justify-content: center;
     flex-direction: column;
-    background-color: darkcyan;
+    /*background-color: darkcyan;*/
     height: 100%;
     width: 20%;
     padding-right: 0;
@@ -59,7 +62,7 @@ p {
 .header-title-div {
     display: flex;
     flex-direction: column;
-    background-color: darkmagenta;
+    /*background-color: darkmagenta;*/
     height: 100%;
     width: 60%;
 
@@ -68,7 +71,7 @@ p {
 .header-title-top-div {
     display: flex;
     align-items: flex-end;
-    background-color: darkolivegreen;
+    /*background-color: darkolivegreen;*/
     height: 80%;
     width: 100%;
     bottom: 0;
@@ -86,7 +89,7 @@ p {
 .header-title-bottom-div {
     display: flex;
     flex-direction: row;
-    background-color: olivedrab;
+    /*background-color: olivedrab;*/
     height: 20%;
     width: 100%;
     align-items: flex-end;
