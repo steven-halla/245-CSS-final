@@ -337,3 +337,23 @@
     padding-left: 80%;
 
 }
+
+.footer-image-home-div {
+    display: flex;
+    background-color: lightseagreen;
+
+    flex-direction: column;
+    width: 20%;
+    padding-left: 10%;
+
+}
+
+.foooter-contact-info-home-div {
+    display: flex;
+    background-color: lightpink;
+    height: 100%;
+    width: 100%;
+    min-width: 70vw;
+    flex-direction: column;
+
+}
