@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+p {
+    font-size: 22px;
+}
+
+
 
 .home-wrapper-div {
     display: flex;
@@ -33,18 +38,23 @@
     flex-direction: column;
     background-color: lightgray;
     height: 100%;
-    width: 20%;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .header-sub-title-div {
     display: flex;
+    align-items: flex-end;
+    justify-content: center;
     flex-direction: column;
     background-color: darkcyan;
     height: 100%;
-    width: 20%
-
+    width: 20%;
+    padding-right: 0;
 }
+
 
 .header-title-div {
     display: flex;
@@ -57,20 +67,29 @@
 
 .header-title-top-div {
     display: flex;
-    flex-direction: row;
+    align-items: flex-end;
     background-color: darkolivegreen;
-    height: 100%;
+    height: 80%;
     width: 100%;
-
+    bottom: 0;
+    padding-left: 10px;
+    font-size: 50px;
+    color: white;
 }
+
+.header-title-top-div h1:first-child span {
+    font-family: 'Georgia', serif;
+}
+
 
 
 .header-title-bottom-div {
     display: flex;
     flex-direction: row;
     background-color: olivedrab;
-    height: 100%;
+    height: 20%;
     width: 100%;
+    align-items: flex-end;
 
 
 }
@@ -118,6 +137,7 @@
     width: 20%;
     flex-direction: column;
 
+
 }
 
 .body-left-panel-top-div {
@@ -126,8 +146,13 @@
     height: 50%;
     width: 100%;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
 
 }
+
+
 
 .body-left-panel-bottom--div {
     display: flex;
@@ -135,10 +160,32 @@
     height: 50%;
     width: 100%;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
 
 }
 
 
+.body-left-panel-top-div,
+.body-left-panel-bottom--div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the start (left) */
+    padding: 15px;
+    background-color: gold; /* top div */
+    /* background-color: goldenrod; for bottom div */
+    height: 50%;
+    width: 100%;
+}
+
+.body-left-panel-top-div h2,
+.body-left-panel-bottom--div h2 {
+    padding-left: 0;
+    text-align: left; /* Ensures text is aligned to the left */
+    width: auto; /* Allows the heading to take up only as much width as it needs */
+}
 
 
 
@@ -272,6 +319,8 @@
     background-color: mediumpurple;
     height: 100%;
     width: 50%;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -290,8 +339,13 @@
 .title-body-primary-panel-bottom-div {
     display: flex;
     flex-wrap: wrap; /* Allow items to wrap as needed */
-    background-color: saddlebrown;
+    background-color: red;
     padding-bottom: 55px;
+    flex-direction: row;
+}
+
+.title-body-primary-panel-bottom-div h2 {
+    padding-left: 10%;
 }
 
 
